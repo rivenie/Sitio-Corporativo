@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0, user-scalable=none">
+    <title>S - Design Studio</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+    <!--Botón Volver Arriba-->
+
+    <div class="btn-volver-arriba" id="btn-volver-arriba">
+        <a href="">
+            <i class="fas fa-arrow-circle-up"></i>
+        </a>
+    </div>
+
+    <!--Encabezado-->
+    
+    <header>
+        <!--Versión Móvil-->
+        <div class="menu-mobile">
+            <div class="barra">
+                <a href="#" class="logo">
+                    <img src="img/logotipo.png" alt="Logo S - Design Studio">
+                </a>     
+                <a href="#" id="btnMenu">
+                    <i class="fas fa-bars"></i>
+                </a>
+            </div>
+            <nav class="menu-principal">
+                <a href="#" class="volver-arriba">INICIO</a>
+                <a href="#proyectos" class="scroll-suave">FOTOS</a>
+                <a href="#acercaDe" class="scroll-acercaDe">ACERCA DE</a>
+                <a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+                <a href="#contacto" class="scroll-suave">CONTACTO</a>
+            </nav>
+        </div>
+        <!-- Versión Escritorio -->
+        <!-- Abreviatura: .menu-bar-pc -->
+        <div class="menu-bar-pc">
+            <a href="#" class="logo">
+                <img src="img/logotipo.png" alt="Logo S - Design Studio">
+            </a>
+            <nav class="menu-principal">
+                <!-- Abreviatura: a[href="#"].*5 -->
+                <a href="#" class="volver-arriba">INICIO</a>
+                <a href="#proyectos" class="scroll-suave">FOTOS</a>
+                <a href="#acercaDe" class="scroll-acercaDe">ACERCA DE</a>
+                <a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+                <a href="#contacto" class="scroll-suave">CONTACTO</a>
+            </nav>
+            <div class="top-redes">
+                <a href="#" class="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Encabezado que aparecerá al hacer scroll -->
+
+        <div class="fixed-header" id="fixedHeader">
+            <a href="#" class="logo">
+                <img src="img/logotipo.png" alt="Logo S - Design Studio">
+            </a>
+            <nav class="menu-principal">
+                <a href="#" class="volver-arriba">INICIO</a>
+                <a href="#proyectos" class="scroll-suave">FOTOS</a>
+                <a href="#acercaDe" class="scroll-acercaDe">ACERCA DE</a>
+                <a href="#equipo" class="scroll-equipo">NUESTRO EQUIPO</a>
+                <a href="#contacto" class="scroll-suave">CONTACTO</a>
+            </nav>
+            <div class="top-redes">
+                <a href="#" class="">
+                    <i class="fab fa-facebook-f"></i>
+                </a>
+                <a href="#" class="">
+                    <i class="fab fa-twitter"></i>
+                </a>
+                <a href="#" class="">
+                    <i class="fab fa-instagram"></i>
+                </a>
+            </div>
+        </div>
+
+    <!--Main-->
+    <section class="main">
+        <!--Banner Principal-->
+        <section class="banner-principal">
+            <div class="banner" id="banner">
+
+            </div>
+            <div class="texto-banner">
+                <h2>Siempre innovando</h2>
+                <h1>Design Studio</h1>
+                <a href="#proyectos" class="scroll-suave">VER PROYECTOS</a>
+            </div>
+        </section>
+        <!--Proyectos-->
+        <section class="proyectos" id="proyectos">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Ultimos proyectos</h2>
+                    <p>Somos especialistas en entregar los mejores trabajos y la más alta calidad</p>
+                </div>
+                <div class="galeria-proyectos">
+                    <div class="proyecto">
+                        <img src="img/proyecto1.jpg" alt="Proyecto1" class="imagen-proyecto">
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/proyecto2.jpg" alt="Proyecto" class="imagen-proyecto">
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/proyecto3.jpg" alt="Proyecto" class="imagen-proyecto">
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/proyecto4.jpg" alt="Proyecto1" class="imagen-proyecto">
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/proyecto5.jpg" alt="Proyecto1" class="imagen-proyecto">
+                    </div>
+                    <div class="proyecto">
+                        <img src="img/proyecto6.jpg" alt="Proyecto1" class="imagen-proyecto">
+                    </div>
+                </div> 
+            </div>
+        </section>
+
+        <!-- <div class="modal" id="modal">
+            <img src="img/proyecto1.jpg" alt="Proyecto1" class="imagen-proyecto">
+            <div class="btn-cerrar" id="btn-cerrar">
+                <i class="fas fa-times">
+
+                </i>
+            </div>
+        </div> -->
+
+        <!--Acerca De-->
+        <section class="acerca-de" id="acercaDe">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Acerca de</h2>
+                    <p>Conoce más sobre nosotros, lo que hacemos y cómo lo hacemos</p>
+                </div>
+                <div class="texto-acerca-de">
+                    <p>En S - Design Studio, creemos en el poder del diseño para transformar ideas en realidades. Nuestro enfoque se centra en la creatividad, la innovación y el trabajo en equipo, lo que nos permite entregar soluciones personalizadas que superan las expectativas de nuestros clientes.</p>
+                </div>
+            </div>
+        </section>
+        <!-- Slider -->
+        <section class="contenedor-slider">
+            <div class="slider" id="slider">
+                <div class="slide">
+                    <img src="img/slide1.jpg" alt="Slide">
+                </div>
+                <div class="slide">
+                    <img src="img/slide2.jpg" alt="Slide">
+                </div>
+                <div class="slide">
+                    <img src="img/slide3.jpg" alt="Slide">
+                </div>
+                <div class="slide">
+                    <img src="img/slide4.jpg" alt="Slide">
+                </div>
+                <div class="btn-anterior" id="btnAnterior">
+                    <i class="fas fa-arrow-circle-left"></i>
+                </div>
+                <div class="btn-siguiente" id="btnSiguiente">
+                    <i class="fas fa-arrow-circle-right"></i>
+                </div>
+            </div>
+        </section>
+        <!-- Nuestro Equipo -->
+        <section class="nuestro-equipo" id="equipo">
+            <div class="contenedor">
+                <div class="titulo-seccion">
+                    <h2>Nuestro Equipo</h2>
+                    <p>Personas expertas y apasionadas por lo que hacen</p>
+                </div>
+                <div class="equipo">
+                    <div class="persona-equipo">
+                        <div class="foto">
+                            <img src="img/foto1.jpg" alt="Persona">
+                        </div>
+                        <div class="texto">
+                            <h3>Raúl Gonzales</h3>
+                            <h4>Diseñador Gráfico</h4>
+                            <p>Raúl es un creativo con más de 5 años de experiencia en diseño visual. Su pasión por el arte y la tecnología lo hace un experto en convertir ideas en imágenes.</p>
+                        </div>
+                    </div>
+                    <div class="persona-equipo">
+                        <div class="foto">
+                            <img src="img/foto2.jpg" alt="Persona">
+                        </div>
+                        <div class="texto">
+                            <h3>Humberto Quiroz</h3>
+                            <h4>Ingeniero Sistemas</h4>
+                            <p>Humberto es el cerebro detrás de nuestras soluciones digitales. Con una amplia experiencia en programación, se encarga de que cada proyecto funcione a la perfección.</p>
+                        </div>
+                    </div>
+                    <div class="persona-equipo">
+                        <div class="foto">
+                            <img src="img/foto3.jpg" alt="Persona">
+                        </div>
+                        <div class="texto">
+                            <h3>Melanie Palomino</h3>
+                            <h4>Desarrollador Web</h4>
+                            <p>Melanie combina su pasión por el diseño y la funcionalidad, creando sitios web que son tanto atractivos como altamente usables. Su atención al detalle la distingue.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Sección información extra -->
+        <section class="info-extra">
+            <div class="contenedor">
+                <div class="info">
+                    <div class="contenido-info">
+                        <div class="icono-info">
+                            <i class="fas fa-paint-brush"></i>
+                        </div>
+                        <div class="texto-info">
+                            <h4>Imaginamos y diseñamos</h4>
+                            <p>En S - Design Studio, cada idea cuenta. Nos dedicamos a entender las necesidades de nuestros clientes para crear soluciones únicas y efectivas.</p>
+                        </div>
+                    </div>
+                    <div class="contenido-info">
+                        <div class="icono-info">
+                            <i class="fas fa-desktop"></i>
+                        </div>
+                        <div class="texto-info">
+                            <h4>Creamos</h4>
+                            <p>Desde el diseño gráfico hasta el desarrollo web, nuestro equipo está aquí para convertir tus conceptos en realidades tangibles que impacten.</p>
+                        </div>
+                    </div>                    
+                </div>
+                <div class="foto">
+                </div>
+            </div>
+        </section>
+        <!--Contacto-->
+
+        <div class="contacto" id="contacto" data-parallax="scroll" data-image-src="img/bg-contacto.jpg">
+            <div class="contenedor">
+                <div class="contenedor-formulario">
+                    <div class="formulario" id="formulario">
+                        <h2>Cuentanos sobre tu proyecto</h2>
+                        <p>Estamos listos para ayudarte a dar el siguiente paso en tu proyecto. Completa el formulario y uno de nuestros expertos se pondrá en contacto contigo.</p>
+                        <form>
+                            <div>
+                                <input type="text" name="nombre" placeholder="Nombre" id="nombre">
+                                <p class="error">Por favor escribe tu nombre</p>
+                            </div>
+                            <div>
+                                <input type="email" name="email" placeholder="Correo electrónico" id="email">
+                                <p class="error">Por favor escribe tu correo</p>
+                            </div>
+                            <div>
+                                <textarea name="mensaje" placeholder="Cuéntanos de tu proyecto" id="mensaje"></textarea>
+                                <p class="error">Por favor escribe tu mensaje</p>
+                            </div>
+                            <div>
+                                <input type="submit" name="enviar" value="Enviar">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="foto">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!--Pie de página-->
+
+    <footer>
+        <div class="copy">
+            <p>Todos los derechos reservados</p>
+        </div>
+        <div class="footer-redes">
+            <a href="#" class="">
+                <i class="fab fa-facebook-f"></i>
+            </a>
+            <a href="#" class="">
+                <i class="fab fa-twitter"></i>
+            </a>
+            <a href="#" class="">
+                <i class="fab fa-instagram"></i>
+            </a>
+        </div>
+
+    </footer>
+    
+    <script src="js/jquery.min.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/stickyHeader.js"></script>
+    <script src="js/scrollSuave.js"></script>
+    <script src="js/modal.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/prefixfree.min.js"></script>
+    <!-- <script src="js/bgParallax.js"></script> -->
+    <script src="js/parallax.min.js"></script>
+    <script src="js/validacion.js"></script>
+    <script src="js/menuMobile.js"></script>
+
+
+</body>
+</html>
+
+<!--
+
+    Dominio Surge.sh:
+
+    http://new-join.surge.sh/
+
+-->
